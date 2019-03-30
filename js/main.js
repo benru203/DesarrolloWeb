@@ -9,6 +9,8 @@ window.onload = ()=>{
             if(!validator(inputs[index],'required|min:10')){            
                 inputs[index].classList.add("errorClass");
                 return false;
+            }else{
+                inputs[index].classList.remove("errorClass");
             }       
         }
         console.log('enviar datos');
