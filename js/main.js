@@ -5,7 +5,6 @@ window.onload = ()=>{
         let form = document.querySelector('.form');
         let inputs = form.querySelectorAll('input');
         for (let index = 0; index < inputs.length; index++) {
-            console.log(validator(inputs[index],'required|min:10'));
             if(!validator(inputs[index],'required|min:10')){            
                 inputs[index].classList.add("errorClass");
                 return false;
