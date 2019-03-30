@@ -8,6 +8,5 @@
 }
 
 .errorClass{
-    outline: 2px;
-    outline-color: #7d110e;
+    border: 2px solid #7d110e!important;
 }
